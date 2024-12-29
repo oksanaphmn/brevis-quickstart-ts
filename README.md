@@ -21,7 +21,7 @@ make start
 
 ### Start Prover with Systemd (in production on linux server)
 
-You may want to have a process daemon to manage the prover services in production. The [Makefile](prover/Makefileefile) in the project root contains some convenience scripts. 
+You may want to have a process daemon to manage the prover services in production. The [Makefile](prover/Makefile) in the project root contains some convenience scripts. 
 
 To build, init systemd, and start both prover processes, run the following command. Note it requires sudo privilege because we want to use systemd commands
 
